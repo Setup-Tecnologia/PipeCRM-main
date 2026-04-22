@@ -1,0 +1,65 @@
+# ========================
+# AMBIENTE
+# ========================
+.venv/
+env/
+ENV/
+venv/
+
+# ========================
+# CONFIG / SEGREDOS
+# ========================
+.env
+.env.*
+*.env
+
+# ========================
+# PYTHON
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# ========================
+# LOGS
+# ========================
+*.log
+
+# ========================
+# ARQUIVOS TEMP
+# ========================
+tmp/
+temp/
+tmp_excel_extract/
+extracted/
+
+# ========================
+# EXCEL / DADOS LOCAIS
+# ========================
+*.xlsx
+*.xls
+*.csv
+*.zip
+
+# (se quiser manter algum específico, remove essa linha depois)
+
+# ========================
+# IDE / EDITOR
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# BUILD
+# ========================
+dist/
+build/
+
+# ========================
+# SISTEMA
+# ========================
+.DS_Store
+Thumbs.db
