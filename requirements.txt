@@ -1,0 +1,17 @@
+# PipeCRM (Flet desktop) - dependências principais
+flet==0.84.0
+
+# Dados e gráficos
+pandas>=3.0.0
+matplotlib>=3.10.0
+
+# HTTP / integrações
+requests>=2.33.0
+aiohttp>=3.13.0
+
+# Config
+python-dotenv>=1.2.0
+
+# Exportação Excel via pandas.DataFrame.to_excel()
+openpyxl>=3.1.0
+
