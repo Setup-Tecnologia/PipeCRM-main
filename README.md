@@ -1,4 +1,4 @@
-﻿# 📊 PipeCRM — Portal do Colaborador (Pipedrive + Sittax)
+﻿# 📊 Dashboard-Pipe-main — PipeCRM (Pipedrive + Sittax)
 
 O **PipeCRM** é um portal/dashboard comercial (desktop) em **Python + Flet** para **consultar e acompanhar carteiras no Pipedrive**, cruzando informações com uma **base externa (Sittax) em Google Sheets**. O foco é dar visibilidade rápida de **pipeline, status, atrasos e saúde da carteira**, com filtros e exportação.
 
@@ -86,7 +86,7 @@ python main.py
 ## 📁 Estrutura do projeto
 
 ```text
-PipeCRM-main/
+Dashboard-Pipe-main/
 ├── main.py                       # App Flet (telas, navegação, exportação)
 ├── service.py                    # Integração Pipedrive + carga Sittax + cache + processamento
 ├── utils.py                      # Normalização/formatadores + render Matplotlib -> Image (Flet 0.84+)
